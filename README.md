@@ -1,2 +1,1 @@
-# Minesweeper
-mini-game
+### 点击链接耍游戏https://soul-silver.github.io/Minesweeper/
