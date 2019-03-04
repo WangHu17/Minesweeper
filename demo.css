@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.wrapper{
+	width: 100%;
+	height: 100%;
+	background-image: url('images/bg.jpg');
+	background-size: 100% 100%;
+}
+.startBtn{
+	width: 150px;
+	height: 70px;
+	background-image: url('images/start.png');
+	background-size: 100% 100%;
+	position: absolute;
+	right: 150px;
+	top: 90px;
+	cursor: pointer;
+}
+.bombNum{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	color: #333;
+	font-size: 20px;
+	font-weight: bolder;
+	display: none;
+}
+.content{
+	width: 500px;
+	height: 500px;
+	transform: perspective(800px) rotateX(45deg);
+	margin: 0px 485px;
+	border-top: 1px solid #B25F27;
+	border-left: 1px solid #B25F27;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+	display: none;
+}
+.end{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0,0.4);
+	display: none;
+}
+.endImg{
+	width: 75%;
+	height: 90%;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.close{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-image: url('images/close.png');
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+.block{
+	width: 49px;
+	height: 49px;
+	border-right: 1px solid #B25F27;
+	border-bottom: 1px solid #B25F27;
+	box-shadow: 0 0 4px #333 inset;
+	background-image: url('images/land.jpg');
+	background-size: 100% 100%;
+	float: left;
+}
+.show{
+	background-image: url(images/bomb.png);
+	background-size: 100% 100%;
+}
+.num{
+	background: #ECD0A1;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+}
+.flag{
+	background-image: url('images/redFlag.png');
+}
