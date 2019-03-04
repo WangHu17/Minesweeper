@@ -84,7 +84,7 @@ html,body{
 	float: left;
 }
 .show{
-	background-image: url('./images/bomb.png');
+	background-image: url('./images/bomb.jpg');
 	background-size: 100% 100%;
 }
 .num{
