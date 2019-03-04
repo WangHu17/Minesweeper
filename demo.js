@@ -77,7 +77,7 @@ function leftClick(dom){
 		}
 		setTimeout(function(){
 			end.style.display = 'block';
-			endImg.style.backgroundImage = 'url(images/explode.gif)';
+			endImg.style.backgroundImage = 'url(./images/explode.gif)';
 		},1000)
 	}else{	//没点到雷，插入它周围雷的个数
 		var n = 0;
@@ -127,6 +127,6 @@ function rightClick(dom){
 	score.innerHTML = remainBombNum;
 	if(remainBombNum == 0){
 		end.style.display = 'block';
-		endImg.style.backgroundImage = 'url("images/victory.png")';
+		endImg.style.backgroundImage = 'url("./images/victory.png")';
 	}
 }

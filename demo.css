@@ -9,13 +9,13 @@ html,body{
 .wrapper{
 	width: 100%;
 	height: 100%;
-	background-image: url('images/bg.jpg');
+	background-image: url('./images/bg.jpg');
 	background-size: 100% 100%;
 }
 .startBtn{
 	width: 150px;
 	height: 70px;
-	background-image: url('images/start.png');
+	background-image: url('./images/start.png');
 	background-size: 100% 100%;
 	position: absolute;
 	right: 150px;
@@ -69,7 +69,7 @@ html,body{
 	position: absolute;
 	right: 0;
 	top: 0;
-	background-image: url('images/close.png');
+	background-image: url('./images/close.png');
 	background-size: 100% 100%;
 	cursor: pointer;
 }
@@ -79,12 +79,12 @@ html,body{
 	border-right: 1px solid #B25F27;
 	border-bottom: 1px solid #B25F27;
 	box-shadow: 0 0 4px #333 inset;
-	background-image: url('images/land.jpg');
+	background-image: url('./images/land.jpg');
 	background-size: 100% 100%;
 	float: left;
 }
 .show{
-	background-image: url(images/bomb.png);
+	background-image: url('./images/bomb.png');
 	background-size: 100% 100%;
 }
 .num{
@@ -95,5 +95,5 @@ html,body{
 	line-height: 40px;
 }
 .flag{
-	background-image: url('images/redFlag.png');
+	background-image: url('./images/redFlag.png');
 }
